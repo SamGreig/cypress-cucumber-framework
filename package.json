@@ -1,0 +1,29 @@
+{
+  "name": "cypress-cucumber-framework",
+  "version": "1.0.0",
+  "description": "Simple Cypress e2e testing framework using Cucumber",
+  "main": "app.js",
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SamGreig/cypress-cucumber-framework.git"
+  },
+  "author": "Sam Greig",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SamGreig/cypress-cucumber-framework/issues"
+  },
+  "homepage": "https://github.com/SamGreig/cypress-cucumber-framework#readme",
+  "devDependencies": {
+    "@testing-library/cypress": "^8.0.2",
+    "cypress": "^9.4.1"
+  },
+  "dependencies": {
+    "cypress-cucumber-preprocessor": "^4.3.1"
+  }
+}
